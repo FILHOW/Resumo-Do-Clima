@@ -14,7 +14,7 @@ Esse dataset contém informações climáticas (**precipitação, velocidade dos
 ---
 
 ##  Base utilizada
-A base utilizada foi o "Global Daily Weather Data" que contém registros históricos de temperatura, precipitação e outros parâmetros meteorológicoos
+A base utilizada foi o "Global Daily Weather Data" que contém registros históricos de temperatura, precipitação e outros parâmetros meteorológicos.
 
 ---
 
