@@ -30,9 +30,9 @@ Desenvolver um **chatbot educacional em Streamlit** que:
 -  Treine modelos de:
   - Regressão linear (predição de Temperatura Média)  
 -  Mostre métricas de avaliação:
-  - R²  
-  - MAE  
-  - RMSE  
+    - R²  
+    - MAE  
+    - RMSE  
 -  Explique a importância das variáveis por meio de coeficientes e *odds ratios*  
 -  Responda perguntas do usuário via **chatbot regrado**  
 
