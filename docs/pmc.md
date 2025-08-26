@@ -13,6 +13,11 @@ Esse dataset contém informações climáticas (**precipitação, velocidade dos
 
 ---
 
+##  Base utilizada
+A base utilizada foi o "Global Daily Weather Data" que contém registros históricos de temperatura, precipitação e outros parâmetros meteorológicoos
+
+---
+
 ##  Problema a ser respondido
 Existem **padrões consistentes** em regiões diferentes?
 
