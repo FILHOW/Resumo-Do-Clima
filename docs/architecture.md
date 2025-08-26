@@ -70,7 +70,7 @@ Usuário (navegador)
 ## 4. Fluxo de Execução
 
 1. Usuário acessa aplicação pelo navegador.
-2. Faz upload do dataset (ex.: Titanic `train.csv`).
+2. Faz upload do dataset (ex.: Summary of weather `Summary of weather.csv`).
 3. A camada `app/` passa os dados para `core/data/` → validação.
 4. `core/features/` monta pipeline de preprocessamento.
 5. `core/models/` treina e avalia modelo escolhido.
@@ -79,16 +79,3 @@ Usuário (navegador)
 8. Resultados (métricas, gráficos, texto) são exibidos em `app/`.
 9. Artefatos (datasets tratados, modelos) são salvos em `data/`.
 
-## 5. Como desenhar no draw.io
-
-1. Acesse [draw.io](https://app.diagrams.net/).
-2. Crie caixas para cada camada:
-   - **Usuário (Navegador)** no topo.
-   - **app/** logo abaixo, identificado como “Streamlit UI”.
-   - **core/** ao centro, subdividido em data, features, models, explain, chatbot.
-   - **data/** na base, com subpastas raw, processed, models.
-   - **configs/** e **docs/** ao lado, conectados ao core e app como apoio.
-3. Conecte com setas verticais (usuário → app → core → data).
-4. Adicione rótulos nas setas, por exemplo: “upload CSV”, “pré-processamento”, “treino/predição”.
-5. Salve o diagrama em formato `.drawio` e exporte também como `.png`.
-6. No repositório, coloque em `docs/images/architecture.png` e referencie neste arquivo com:
